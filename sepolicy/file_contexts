@@ -25,6 +25,10 @@
 /persist/audio/us_cal                 u:object_r:persist_usf_cal_file:s0
 /persist/qc_senseid(/.*)?             u:object_r:persist_qc_senseid_file:s0
 
+# Persist files
+/persist/audio/us_cal                 u:object_r:persist_usf_cal_file:s0
+/persist/qc_senseid(/.*)?             u:object_r:persist_qc_senseid_file:s0
+
 # Binaries
 /system/bin/readfem                   u:object_r:readfem_exec:s0
 /system/bin/readmac                   u:object_r:readmac_exec:s0
