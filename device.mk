@@ -286,7 +286,7 @@ PRODUCT_PACKAGES += \
 
 # OTA Updates
 PRODUCT_PACKAGES += \
-    AEXOTA \
+#    AEXOTA \
     libbypass
 
 # Power
