@@ -25,19 +25,19 @@ $(call inherit-product, device/xiaomi/gemini/device.mk)
 $(call inherit-product, vendor/aosp/common.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_gemini
-PRODUCT_DEVICE := gemini
+PRODUCT_NAME := aosp_capricorn
+PRODUCT_DEVICE := capricorn
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := MI 5
+PRODUCT_MODEL := MI 5s
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="gemini" \
-    PRODUCT_NAME="gemini" \
-    BUILD_FINGERPRINT="Xiaomi/gemini/gemini:7.0/NRD90M/V8.2.1.0.NAACNEB:user/release-keys" \
-    PRIVATE_BUILD_DESC="gemini-user 7.0 NRD90M V8.2.1.0.NAACNEB release-keys"
+    TARGET_DEVICE="capricorn" \
+    PRODUCT_NAME="capricorn" \
+    BUILD_FINGERPRINT="Xiaomi/capricorn/capricorn:6.0.1/MXB48T/V8.2.4.0.MAGCNDL:user/release-keys" \
+    PRIVATE_BUILD_DESC="capricorn-user 6.0.1 MXB48T V8.2.4.0.MAGCNDL release-keys"
 
 TARGET_VENDOR := Xiaomi
 DEFAULT_ROOT_METHOD := magisk
